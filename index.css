@@ -1,18 +1,42 @@
-* {
+*{
+  font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-}
-ul{
-    list-style: none;
-}
-ul .header a {
-  color: white;
 }
 
-.header ul {
+a{
+  text-decoration:none;
+}
+.head ul{
+  list-style:none;
+  color: white;
   background-color: black;
+  font-size: 18px;
+  padding: 15px 0px;
+  margin: 5px 0 5px;
+}
+
+.head img{
+  width: 70px;
+}
+
+.head li{
+  display: inline;
+  margin: 0px 10px;
+}
+
+.carousel{
+  background-image: url(./img/banner.jpg);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-item img{
+  width: 100%;
+}
+
+.products-item{
+  float: left;
+  width: 25%;
 }
